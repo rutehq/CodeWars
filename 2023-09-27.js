@@ -13,14 +13,10 @@ const reverseSeq = n => {
 
 //  Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-
-
-
-
-function squareDigits(num){
-    let digits = []
-    digits = num.split()
-    return 0;
+function evenOrOdd(number) {
+    if(number % 2 === 0){
+      return "Even"
+    }else{
+      return "Odd"
+    }
   }
-squareDigits(203)
-  console.log(digits)

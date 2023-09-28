@@ -20,3 +20,4 @@ function evenOrOdd(number) {
       return "Odd"
     }
   }
+
